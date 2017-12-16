@@ -1,0 +1,131 @@
+[
+  {
+    "id": 0,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "Welcome to your new adventure.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Welcome to your new adventure.",
+      "prompt": "When you are ready, say \"Begin\"."
+    },
+    "options": [
+      {
+        "utterances": [
+          "begin"
+        ],
+        "sceneId": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome.",
+      "text": "Let the adventure begin!",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Let the adventure begin!\n\nAll you feel around you is the air whooshing past you as you descend at a rate of 300 mph.. The ground is getting closer... and closer... until finally\n<audio src='https://s3.amazonaws.com/alexas-adventure-sounds/rocket-thrust-s3.mp3' /> you activate the rocket thrust capabilities of your shoes at the very last second. <say-as interpret-as=\"interjection\">phew!</say-as> Good thing this isn't the first time you were ejected out from an alien ship's garbage chute... You look out towards the horizon. In the distance you see a green beam of light and a dark ominous forest. And behind you, you see <prosody rate=\"110%\" pitch=\"+7%\"> a group of savages rapidly approaching! </prosody> Where would you like to head to?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 2,
+        "utterances": [
+          "beam of light"
+        ]
+      },
+      {
+        "sceneId": 3,
+        "utterances": [
+          "the forest"
+        ]
+      },
+      {
+        "sceneId": 4,
+        "utterances": [
+          "The Wild People"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Escape! To the light!",
+      "text": "You use the last bit of your rocket fuel to jet off towards the green beam of light.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "To be completed.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 3,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Escape! To the forest!",
+      "text": "To be completed.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "To be completed.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 4,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Wild!",
+      "text": "Wow, you are quite the adventurer! You calmly walk towards the savages as they run towards you raising their primitive weapons into the air. All you can hear is the sound of their war drums. As they draw closer, you lift one leg, aiming at the ground just in front of the savages. You sent an explosive wave of fire that stops just in front of the savages, so that they know you mean business. However, this uses up all the remaining fuel in your shoes... Luckily, the savages put down their weapons, bow in awe, and believe you to be the god of fire.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Wow, you are quite the adventurer! You calmly walk towards the savages as they run towards you raising their primitive weapons into the air. All you can hear is the sound of their war drums. <audio src='https://s3.amazonaws.com/alexas-adventure-sounds/war-drums-s3.mp3' /> As they draw closer, you lift one leg, aiming at the ground just in front of the savages. <audio src='https://s3.amazonaws.com/alexas-adventure-sounds/explosion-s3.mp3' /> You sent an explosive wave of fire that stops just in front of the savages, so that they know you mean business. However, this uses up all the remaining fuel in your shoes... Luckily, the savages put down their weapons, <phoneme alphabet=\"ipa\" ph=\"baʊ\">bow</phoneme> down in awe, and believe you to be their god of fire.",
+      "prompt": ""
+    },
+    "options": []
+  }
+]
