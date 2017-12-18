@@ -5,6 +5,6 @@ Game which allows you to interact with the story. Each scene in a story is saved
 https://youtu.be/JI9Q9LvhG7Q
 
 # Architecture Diagram
-
+![alt text](https://s3.amazonaws.com/media-p.slid.es/uploads/783361/images/4299080/Web_App_Reference_Architecture__1_.png)
 
 # Configuration Steps 
